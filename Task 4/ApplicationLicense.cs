@@ -155,7 +155,7 @@ namespace Task_4
         public void AllowPro()
         {
             Console.WriteLine("\nPro version");
-            Console.WriteLine("In this version are available new function like <sin>, <cos>, <tg>, <ctg>");
+            Console.WriteLine("In this version are available new function like <sin>");
             Console.WriteLine("Select an action:");
 
             Console.WriteLine("1 - <+>");
