@@ -25,6 +25,24 @@ namespace Task_4
                     applicationLicense01.AllowTrial();
                     break;
                 case "2":
+                    Console.WriteLine("\nType an activasion code:");
+                    Console.WriteLine("Type - *common*, to activate a Common version");
+                    Console.WriteLine("Type - *Pro*, to activate a Pro version");
+                    
+                    switch (Console.ReadLine())
+                    {
+                        case "common":
+                            ApplicationLicense applicationLicense02 = new ApplicationLicense();
+                            applicationLicense02.AllowCommon();
+                            break;
+                        case "Pro":
+                            ApplicationLicense aplicationLicense03 = new ApplicationLicense();
+                            aplicationLicense03.AllowPro();
+                            break;
+                        default:
+                            Console.WriteLine("**INPUT ERROR**");
+                            break;
+                    }
                     break;
                 default:
                     Console.WriteLine("\n**INPUT ERROR**");
