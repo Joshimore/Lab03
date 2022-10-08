@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Operator.cs" />
+    <Compile Include="Rifleman.cs" />
+    <Compile Include="Leader.cs" />
+    <Compile Include="Operatormobil.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
