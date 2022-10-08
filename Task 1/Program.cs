@@ -10,10 +10,10 @@ namespace Task_1
     {
         static void Main(string[] args)
         {
-            Gtr34 gtr34 = new("Nissan GTR r34", 100000, 0, "Petrol", "Mechanical", "Tokyo");
+            Gtr34 gtr34 = new Gtr34("Nissan GTR r34", 100000, 0, "Petrol", "Mechanical", "Tokyo");
             gtr34.Information34();
 
-            Gtr35 gtr35 = new("Nissan GTR r35", 200000, 0, "Petrol", "Mechanical", "Hiroshima");
+            Gtr35 gtr35 = new Gtr35("Nissan GTR r35", 200000, 0, "Petrol", "Mechanical", "Hiroshima");
             gtr35.Information35();
 
             Gtr34 car1 = gtr35;
